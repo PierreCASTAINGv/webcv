@@ -168,7 +168,7 @@ html {
   border-bottom: 6px solid rgb(159, 144, 199)
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 980px) {
   .item {
       width: 97vw;
       height: auto;
