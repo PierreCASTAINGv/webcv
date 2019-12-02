@@ -20,7 +20,8 @@ html {
 .one {
   background: rgb(245, 118, 13);
   border-radius: 0 0 55px 20px;
-  margin: 1vh 1vw 0 0
+  margin: 1vh 1vw 0 0;
+  box-shadow: 2px 4px 9px rgb(187, 183, 183)
 }
 
 .two {
@@ -37,7 +38,8 @@ html {
 .four {
   background: rgb(54, 3, 194);
   border-radius: 55px 20px 0 0;
-  margin: 1.5vh 0 0 0
+  margin: 1.5vh 0 0 0;
+  box-shadow: -2px -4px 9px rgb(219, 214, 214)
 }
 
 .item {
@@ -175,7 +177,10 @@ html {
       border-radius: 15px;
       margin: .5vh 1vw;
       padding: 3em 0;
-  }   
+  }
+  .three {
+    padding: 4.5em 0;
+  }
   .form > textarea, .form > input, .form > label {
       width: calc(1em + 44vw);;
       padding: .5em 0.5em
