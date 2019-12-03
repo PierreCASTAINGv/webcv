@@ -4,6 +4,11 @@ class BlockFour extends Component {
 
     render() {
 
+        const Message = event => {
+            event.preventDefault();
+            alert('##### Fonctionnalité à venir #####');
+        }
+
         return (
             <div className="item four">
                 <form className="form" action="" method="post">
@@ -12,7 +17,7 @@ class BlockFour extends Component {
                     <label name="demande">Votre demande :</label><br />
                     <textarea placeholder="..."></textarea><br />
                     <p><button 
-                        onClick={this.Message} 
+                        onClick={Message} 
                         type="submit"
                         >
                         submit
@@ -21,11 +26,6 @@ class BlockFour extends Component {
                 </form>
             </div>
         );
-    }
-
-    Message(event){
-        event.preventDefault();
-        alert('##### Fonctionnalité à venir #####');
     }
 
 }
